@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://cmsnews.t.imooc.io/index.php?c=cat&id=12 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <title>singcms</title>
+  <meta name="keywords" content="singcms  资讯 体育 新闻 科技">
+  <meta name="description" content="singcms资讯网是提供最新的体育等栏目的新闻网站">
+  <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="./css/main.css" type="text/css">
+</head>
+<body>
+<header id="header">
+  <div class="navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="">
+          <img src="./image/logo.png" alt="">
+        </a>
+      </div>
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="">首页</a></li>
+        <li><a href="./list.html" class="curr">老司机带带我</a></li><li><a href="">体育</a></li><li><a href="">科技</a></li>      </ul>
+    </div>
+  </div>
+</header>
+	<section>
+    <div class="container" style="text-align:center;">
+      <h1 style="color:red">错误信息哦</h1>
+      <h3 id="location" >系统将在<span style="color:red">3</span>秒后自动跳转到首页</h3>
+    </div>
+  </section>
+</body>
+<script src="./js/jquery.js"></script>
+<script>
+  //首页
+  var url = "./index.html";
+  var time = 3;
+  setInterval("refer()",1000);
+  function refer() {
+  if(time==0) {
+    location.href=url;
+  }
+  $("#location span").html(time);
+  time--;
+  }
+</script>
+</html>
