@@ -212,40 +212,9 @@
 
 
 <div class="content">
-  <div class="container-fluid">
-    <div id="main-stats">
-      <div class="row-fluid stats-row">
-        <div class="span3 stat">
-          <div class="data">
-            <span class="number">2457</span>
-            个访客
-          </div>
-          <span class="date">今天</span>
-        </div>
-        <div class="span3 stat">
-          <div class="data">
-            <span class="number">3240</span>
-            个用户
-          </div>
-          <span class="date">2016年3月</span>
-        </div>
-        <div class="span3 stat">
-          <div class="data">
-            <span class="number">322</span>
-            个订单
-          </div>
-          <span class="date">本周</span>
-        </div>
-        <div class="span3 stat last">
-          <div class="data">
-            <span class="number">$2,340</span>
-            成交金额
-          </div>
-          <span class="date">最近30天</span>
-        </div>
-      </div>
+    <div class="container-fluid">
+        
     </div>
-  </div>
 </div>
 
 <!-- scripts -->
